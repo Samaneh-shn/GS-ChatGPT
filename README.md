@@ -34,3 +34,13 @@ The significance of ChatGPT extends beyond its immediate applications. It repres
 
 ___
 
+# Objective
+
+In this project, we delve into the ChatGPT research landscape, aiming to provide a comprehensive analysis of the prevailing themes, research trends, and potential areas of exploration within this domain. By conducting extensive data collection, exploratory data analysis, and topic modeling, we aim to shed light on the key areas of interest, identify potential research gaps, and uncover insights that can guide future studies.
+Through our research, we aim to contribute to the growing body of knowledge surrounding ChatGPT, providing researchers, practitioners, and decision-makers with valuable insights into the advancements, challenges, and opportunities within the realm of conversational AI. By understanding the current state of research, we can further harness the potential of ChatGPT, pushing the boundaries of human-computer interactions and paving the way for more intelligent and intuitive AI systems.
+
+___
+
+# Methodology 
+
+
