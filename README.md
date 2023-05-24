@@ -144,8 +144,8 @@ Topic 4: This topic focuses on the writing and analysis of scientific papers and
 
 The visualization of these topics in the form of word clouds not only aids in understanding the current research focus within the ChatGPT domain but also helps identify science gaps and areas that require further investigation. By analyzing the distribution of top words in each topic, researchers can identify potential areas of research that have received less attention or where additional studies are needed.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/2c7c3591-06cb-4612-931c-005ad9224c07" alt="image" width="500" height="400">
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/f8151512-d072-4cd3-a4d4-3e75dc83c49f" alt="image" width="500" height="400">
+![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/fd1574b9-0f33-4d7e-a44b-b57ca0763d19)
+![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/1beae316-d62b-49b2-80c2-d2a2581e9031)
 
 To further categorize and label each topic, a meticulous process was undertaken. Initially, the most dominant topic for each paper title was determined. Next, a comparison was made between the top keywords of each topic and the titles in which a particular topic exhibited the highest dominance with a significant contribution percentage. By carefully analyzing these patterns, specific labels were assigned to each topic. The following topic labels were derived:
 0: 'Potential Applications and Use Cases of ChatGPT'
