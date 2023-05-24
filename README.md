@@ -78,15 +78,15 @@ To determine the optimal number of topics, we followed an iterative approach. We
 To automate this process, we developed a function that takes in the Gensim dictionary, Gensim corpus, input texts, and a range of potential topics. This function returns a list of models and their corresponding coherence values, aiding in the selection of the optimal number of topics.
 In our case, we created ten LDA models with different numbers of topics and evaluated the coherence scores for each model. Visualizing the coherence scores for different numbers of topics (ranging from 2 to 10), we observed that five topics yielded the highest coherence score of 0.593.
 
-![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/7fdc27ec-c1d3-409b-ba6b-1e3fab8de588)
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/7fdc27ec-c1d3-409b-ba6b-1e3fab8de588" alt="image" width="500" height="400">
 
 Furthermore, we focused on refining the hyperparameters to improve the model's performance. We specifically looked at the hyperparameters alpha and beta, which respectively control the document-topic density and word-topic density. After experimentation, we found that setting both alpha and beta to symmetric values resulted in the best performance, with a coherence score improvement of about 2% over the baseline model.
 
-![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/6335c6b7-bc82-42c9-8424-26b283b16460)
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/6335c6b7-bc82-42c9-8424-26b283b16460" alt="image" width="500" height="400">
 
 With the optimal hyperparameters determined, we created the final LDA model with a coherence score of 0.593. To visualize the topics and their distribution, we utilized pyLDAvis.gensim_models and the LDAvis_prepared function. This allowed us to generate an interactive visualization of the topics and their corresponding keywords, facilitating a better understanding of the relationships and characteristics of each topic.
 
-![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/2fc7b1d5-741a-41bd-8f37-2b2ef8807f3d)
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/2fc7b1d5-741a-41bd-8f37-2b2ef8807f3d" alt="image" width="500" height="400">
 
 By leveraging these techniques and libraries, we successfully performed LDA topic modeling on the ChatGPT research papers, ultimately obtaining a coherent and interpretable set of topics that encapsulated the main areas of focus within the dataset.
 
