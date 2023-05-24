@@ -6,4 +6,17 @@ The objective of this project was to conduct a comprehensive analysis of researc
 
 ___
 
+# Table of Contents
+
+- [Background](#Background)
+- [Objective](#Objective)
+- [Methodology](#Methodology)
+  - [Data Collection](#Data Collection)
+  - [Data Preprocessing](#Data Preprocessing)
+  - [Data Modeling](#Data Modeling)
+- [Results](#Results)
+  - [Exploratory Data Analysis](#Exploratory Data Analysis)
+  - [Topic Modeling](#Topic Modeling)
+- [Conclusion](#Conclusion)
+- [References](#References)
 
