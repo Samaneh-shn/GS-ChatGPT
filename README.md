@@ -8,15 +8,16 @@ ___
 
 # Table of Contents
 
-- [Background](#Background)
-- [Objective](#Objective)
-- [Methodology](#Methodology)
-   - [Data Collection](#Data Collection)
-  - [Data Preprocessing](#Data Preprocessing)
-  - [Data Modeling](#Data Modeling)
-- [Results](#Results)
-  - [Exploratory Data Analysis](#Exploratory Data Analysis)
-  - [Topic Modeling](#Topic Modeling)
-- [Conclusion](#Conclusion)
-- [References](#References)
+- [Background](#background)
+- [Objective](#objective)
+- [Methodology](#methodology)
+  - [Data Collection](#data-collection)
+  - [Data Preprocessing](#data-preprocessing)
+  - [Data Modeling](#data-modeling)
+- [Results](#results)
+  - [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [Topic Modeling](#topic-modeling)
+- [Conclusion](#conclusion)
+- [References](#references)
+
 
