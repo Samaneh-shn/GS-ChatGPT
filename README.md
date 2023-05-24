@@ -32,3 +32,5 @@ The significance of ChatGPT extends beyond its immediate applications. It repres
 
 <img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/be30b99b-a982-4bde-9695-76e51d60f6f4" alt="image" width="400" height="300">
 
+___
+
