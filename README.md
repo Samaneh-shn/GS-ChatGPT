@@ -20,3 +20,10 @@ ___
 - [Conclusion](#Conclusion)
 - [References](#References)
 
+# Table of Contents
+
+- [Introduction](#introduction)
+- [Section 1](#section1)
+  - [Subsection 1.1](#subsection1.1)
+- [Section 2](#section2)
+
