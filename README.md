@@ -11,7 +11,7 @@ ___
 - [Background](#Background)
 - [Objective](#Objective)
 - [Methodology](#Methodology)
-  - [Data Collection](#Data Collection)
+   - [Data Collection](#Data Collection)
   - [Data Preprocessing](#Data Preprocessing)
   - [Data Modeling](#Data Modeling)
 - [Results](#Results)
@@ -19,11 +19,4 @@ ___
   - [Topic Modeling](#Topic Modeling)
 - [Conclusion](#Conclusion)
 - [References](#References)
-
-# Table of Contents
-
-- [Introduction](#introduction)
-- [Section 1](#section1)
-  - [Subsection 1.1](#subsection1.1)
-- [Section 2](#section2)
 
