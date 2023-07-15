@@ -2,7 +2,7 @@
 
 The objective of this project was to conduct a comprehensive analysis of research papers related to ChatGPT by scraping data from Google Scholar. The dataset obtained consisted of numerous research papers covering various aspects of ChatGPT, and the analysis aimed to gain insights into the research landscape surrounding this topic.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/ea0c2119-53ec-4a49-a47e-49c533e8276b" alt="image"  width="800" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/135a40e1-6e68-416c-8e03-746274e33e10" alt="image"  width="800" height="400">
 
 
 ___
@@ -31,7 +31,7 @@ The importance of ChatGPT lies in its ability to comprehend and generate human l
 The applications of ChatGPT are diverse and far-reaching. In customer service, it has the potential to enhance the quality of interactions by providing intelligent and efficient responses to user queries. In educational settings, ChatGPT can serve as a virtual tutor, providing personalized assistance and guidance to students. Furthermore, ChatGPT holds promise in fields such as healthcare, information retrieval, and content generation, where it can augment human capabilities and streamline processes.
 The significance of ChatGPT extends beyond its immediate applications. It represents a significant advancement in the broader field of NLP, pushing the boundaries of language understanding and generation. The challenges associated with building a conversational AI system that can comprehend and respond effectively to human inputs are immense, requiring sophisticated algorithms, vast amounts of data, and ongoing research efforts. As such, ChatGPT serves as a benchmark for evaluating the progress and capabilities of NLP models and techniques.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/be30b99b-a982-4bde-9695-76e51d60f6f4" alt="image" width="400" height="300">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/4714a01d-cf4a-497f-8eb7-76424e55d3b6" alt="image" width="400" height="300">
 
 ___
 
@@ -80,15 +80,16 @@ To determine the optimal number of topics, I followed an iterative approach. I b
 To automate this process, I developed a function that takes in the Gensim dictionary, Gensim corpus, input texts, and a range of potential topics. This function returns a list of models and their corresponding coherence values, aiding in the selection of the optimal number of topics.
 In this case, I created ten LDA models with different numbers of topics and evaluated the coherence scores for each model. Visualizing the coherence scores for different numbers of topics (ranging from 2 to 10), I observed that five topics yielded the highest coherence score of 0.593.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/7fdc27ec-c1d3-409b-ba6b-1e3fab8de588" alt="image" width="500" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/40b5330c-e170-438c-aaec-05423bb823c1" alt="image" width="500" height="400">
+
 
 Furthermore, I focused on refining the hyperparameters to improve the model's performance. I specifically looked at the hyperparameters alpha and beta, which respectively control the document-topic density and word-topic density. After experimentation, I found that setting both alpha and beta to symmetric values resulted in the best performance, with a coherence score improvement of about 2% over the baseline model.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/6335c6b7-bc82-42c9-8424-26b283b16460" alt="image" width="500" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/817b3b02-50bf-4d8c-b0e5-8130d335d893" alt="image" width="500" height="400">
 
 With the optimal hyperparameters determined, I created the final LDA model with a coherence score of 0.593. To visualize the topics and their distribution, I utilized pyLDAvis.gensim_models and the LDAvis_prepared function. This allowed me to generate an interactive visualization of the topics and their corresponding keywords, facilitating a better understanding of the relationships and characteristics of each topic.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/2fc7b1d5-741a-41bd-8f37-2b2ef8807f3d" alt="image" width="500" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/f4dd319d-6c03-4fad-b141-e6fcb4e58c5f" alt="image" width="500" height="400">
 
 By leveraging these techniques and libraries, I successfully performed LDA topic modeling on the ChatGPT research papers, ultimately obtaining a coherent and interpretable set of topics that encapsulated the main areas of focus within the dataset.
 
@@ -102,23 +103,23 @@ ___
 
 The word-frequency analysis conducted on nearly 1000 Google Scholar papers focused on ChatGPT revealed some intriguing insights. The result of the analysis is visually represented in a bar graph, which showcases the most frequently used words and their corresponding frequencies, allowing for a quick and intuitive understanding of the research trends and focus areas within the field. Keywords such as “use” (209 occurrences, 1.48%) and “model” (201 occurrences, 1.43%) stand out prominently, additionally the word “language” appeared 157 times (1.19%) together emphasizing the practical application and implementation of ChatGPT as a language model. While “write” (161 occurrences, 1.14%), “artificial” (147 occurrences, 1.04%), and “intelligence” (133 occurrences, 0.94%) highlight the focus on generating written content and exploring artificial intelligence aspects. The visualization also depicts the frequent usage of terms like "research," "study," and "education" (each occurring 104 times, 0.74%), illustrating the growing interest in utilizing ChatGPT within educational and research settings. Furthermore, it illustrates the importance of ChatGPT as a tool (100 occurrences, 0.71%) and its potential to serve as a conversational agent (82 occurrences, 0.58%). The visualization effectively communicates these findings, providing a concise and accessible summary of the word-frequency analysis results.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/c1fccd56-2005-47fa-96c2-c8f29fc3445d" alt="image" width="500" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/4a0d28b4-2b62-4342-b090-0b658b3760f5" alt="image" width="500" height="400">
 
 ### 2.Citation Analysis
 
 The visualization of the citation analysis reveals the top cited papers in the field of ChatGPT research. Among them, the paper titled "Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models" by TH Kung et al. stands out with a citation count of 87. It discusses the evaluation of ChatGPT's performance on the United States Medical Licensing Examination (USMLE) and highlights its ability to achieve passing or near-passing results. Another highly cited paper is "ChatGPT is fun, but not an author" by HH Thorp, with a citation count of 80. It explores the use of ChatGPT in writing scientific papers and acknowledges its potential to outperform human authors. The publication "ChatGPT: five priorities for research" by EAM van Dis et al., cited 68 times, outlines the five key areas of focus for further ChatGPT research. Additionally, the visualization highlights the prominence of papers discussing the implications and controversies surrounding ChatGPT, such as "ChatGPT listed as author on research papers: many scientists disapprove" by C Stokel-Walker (67 citations) and "AI bot ChatGPT writes smart essays-should academics worry?" also by C Stokel-Walker (51 citations). Other notable papers include "OpenAI ChatGPT generated literature review: Digital twin in healthcare" by Ö Aydın and E Karaarslan (46 citations), "Collaborating With ChatGPT: Considering the Implications of Generative Artificial Intelligence for Journalism and Media Education" by JV Pavlik (37 citations), "Comparing scientific abstracts generated by ChatGPT to original abstracts using an artificial intelligence output detector, plagiarism detector, and blinded human…" by CA Gao et al. (37 citations), "ChatGPT and other large language models are double-edged swords" by Y Shen et al. (36 citations), and "ChatGPT user experience: Implications for education" by X Zhai (32 citations). These highly cited papers contribute significantly to the understanding and advancement of ChatGPT in various domains.
 
-![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/3c8b49ed-607d-4562-9253-53d6d6282c63)
+![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/883c4b99-af2f-410f-bf32-01d1ea4ce1cc)
 
 ### 3.Publication Trends
 
 The analysis of publication information related to papers about ChatGPT has yielded valuable insights. Firstly, despite being available for only a short period in 2022, there were already 61 papers published on ChatGPT, indicating a rapid adoption and interest in exploring its capabilities. Moving into 2023, the interest in ChatGPT exploded. By late March, a whopping 809 papers had already been published on the subject, demonstrating that ChatGPT had captured substantial attention within the research community. This remarkable uptick in the number of papers reflects not only the growing utilization of ChatGPT but also the increased investigation into its potential across various domains and applications. 
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/1975aef1-7750-416c-8934-bc4f831af1a0" alt="image" width="500" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/d4424817-a5b3-4905-afb0-6bbb188e64fe" alt="image" width="500" height="400">
 
 Furthermore, the analysis of publication information based on the number of papers published on various research networks and science databases showcases the distribution of papers across different platforms. The leading research network in terms of ChatGPT papers is arxiv.org, with 104 papers. It is closely followed by papers.ssrn.com with 97 papers. Other prominent platforms include link.springer.com with 52 papers, researchgate.net with 43 papers, and both cureus.com and sciencedirect.com with 25 papers each. Additional platforms that have seen contributions to the ChatGPT research literature include europepmc.org with 21 papers, medrxiv.org with 20 papers, biblioteca.galileo.edu with 19 papers, and thieme-connect.com with 16 papers.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/006a58ae-8397-4303-bddb-8e6bb13e2fe2" alt="image" width="500" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/fe2c559b-0ce7-4185-82be-59da38f2a68f" alt="image" width="500" height="400">
 
 This analysis highlights the diverse distribution of ChatGPT papers across multiple research networks and science databases, indicating a broad interest in publishing ChatGPT-related research across various platforms. The increase in the number of papers published in 2023 demonstrates the growing significance and research momentum around ChatGPT as a subject of study and exploration.
 
@@ -128,7 +129,7 @@ The sentiment analysis conducted on paper titles related to ChatGPT yielded the 
 
 Therefore, while the sentiment analysis suggests a distribution of positive, neutral, and negative titles, it is crucial to interpret these results with caution. The sentiment analysis may not accurately reflect the overall sentiment or tone of the papers themselves. It is recommended to delve into the actual content of the papers for a more comprehensive understanding of the researchers' perspectives, findings, and arguments.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/14a68e4a-6556-409c-ba40-5f6758830bb9" alt="image" width="500" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/e4c03728-a250-4b38-a3ab-e161f91db2e1" alt="image" width="500" height="400">
 
 ## Topic Modeling
 
@@ -146,8 +147,9 @@ Topic 4: This topic focuses on the writing and analysis of scientific papers and
 
 The visualization of these topics in the form of word clouds not only aids in understanding the current research focus within the ChatGPT domain but also helps identify science gaps and areas that require further investigation. By analyzing the distribution of top words in each topic, researchers can identify potential areas of research that have received less attention or where additional studies are needed.
 
-![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/fd1574b9-0f33-4d7e-a44b-b57ca0763d19)
-![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/1beae316-d62b-49b2-80c2-d2a2581e9031)
+![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/d0a85808-540b-4867-91a4-86917101462b)
+![image](https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/150c9ab4-8b07-42a5-9c11-c4289ceb62cd)
+
 
 To further categorize and label each topic, a meticulous process was undertaken. Initially, the most dominant topic for each paper title was determined. Next, a comparison was made between the top keywords of each topic and the titles in which a particular topic exhibited the highest dominance with a significant contribution percentage. By carefully analyzing these patterns, specific labels were assigned to each topic. The following topic labels were derived:
 0: 'Potential Applications and Use Cases of ChatGPT'
@@ -159,9 +161,9 @@ These topic labels serve as concise descriptors, encapsulating the primary theme
 
 The distribution of topics across the collection of paper titles revealed varying levels of prominence. Among the analyzed titles, Topic 3 emerged as the most prevalent, with a total of 183 papers primarily focusing on the potential and limitations of ChatGPT in education and research. Topics 4 and 2 closely followed with 180 and 150 documents, respectively, exploring the implications of ChatGPT for scientific writing and the evaluation of its capabilities. Topic 0 and Topic 1 were also significant, with 161 and 148 documents, respectively, delving into the potential applications and use cases of ChatGPT as well as its role as a support tool in various fields. These distributions highlight the diverse research interests and priorities within the realm of ChatGPT.
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/0e920f78-2f5b-4f8e-931c-b5d6e41a954d" alt="image" width="500" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/bb66a29f-8070-4b58-8832-ef75be44eb3b" alt="image" width="500" height="400">
 
-<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/d7c1f652-f489-4e01-98c5-e30e540d6cf0" alt="image" width="500" height="400">
+<img src="https://github.com/Samaneh-shn/GS-ChatGPT/assets/120117013/658a2a2c-a89c-4477-89e7-3548bc7d604f" alt="image" width="500" height="400">
 
 ___
 
